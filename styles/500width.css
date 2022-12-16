@@ -1,0 +1,81 @@
+.header_top {
+    height: 60px;
+    padding: 6px 40px;
+}
+.kitchen {
+    height: 560px;   
+}
+.abaut {
+    top: 400px;
+}
+.abaut h2 {
+    left: 60px;
+    top: -26px;
+}
+.persone {
+    width: 340px;
+    height: 40px;
+    align-items: center;
+    justify-content: center; 
+    background-color: #FEFDFD;  
+    top: 80px;
+}
+.experience {
+    
+    margin-top: 60px;
+}
+.paragraff {
+    padding: 0 100px;  
+}
+.background_section {
+    top: 420px;  
+}
+.details_continer {
+    top: 420px;
+}
+.menu_cards__contners article span {
+    height: 65%;
+    margin-bottom: 6px;
+}
+.menu_cards__contners article h4 {
+    font-size: 1.1rem;
+    letter-spacing: 1.1px;
+}
+.menu_cards__contners article p {
+    margin-top: 8px;
+    font-size: 1.1rem;
+}
+.open_special {
+    padding: 8% 0;
+}
+.artic_content {
+    width: 80%;
+    gap: 18px;
+    padding: 0 18px;
+}
+.spacial_menus img {
+    height: 65%;
+}
+.spacial_menus h4 {
+   font-size: 1.2rem;
+}
+.spacial_menus p {
+    font-size: 1.1rem;
+}
+.social {
+    top: 1660px;
+    padding: 30px 0 30px 80px;
+}
+.profile_image {
+    right: 100px;
+}
+.profile_image span {
+    right: 120px;
+}
+.mail {
+    margin-left: 40px;
+}
+footer {
+    margin-top: 1370px;
+    
+}

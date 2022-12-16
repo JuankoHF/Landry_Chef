@@ -1,0 +1,143 @@
+@import './global.css';
+
+.social {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    top: 1560px;
+    padding: 30px 0 30px 30px;
+}
+.social_image{
+    width: 140px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid 2px var(--primary-color);
+}
+.social_image h1 {
+    font-size: 2rem;
+    letter-spacing: 1.2px;
+    color: var(--soff-black);
+}
+.social_image h2 {
+    font-family: 'Caveat', cursive;
+    font-size: 3.4rem;
+    color: var(--primary-color);
+}
+.profile_image {
+    width: 120px;
+    height: 140px;
+    display: flex;
+    position: absolute;
+    right: 40px;
+    top: 90px;
+    background-color: var(--contact);
+}
+.profile_image span {
+    width: 15px;
+    height: 100%;
+    display: flex;
+    position: absolute;
+    right: 120px;
+    background-color: var(--primary-color);
+}
+.profile_image object {
+    width: 232px;
+    height: 198px;
+    display: flex;
+    position: absolute;
+    top: -58px;
+    left: calc(50% - 135px);
+}
+.phrase {
+    display: none;
+}
+.mail {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 15px;
+}
+.mail span {
+    width: 50px;
+    height: 50px;
+    background-image: url(../icons/envelope.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.mail p {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+footer {
+    width: 100%;
+    height: 150px;
+    margin-top: 1220px;
+    display: flex;
+    position: relative;
+    flex-direction: column;  
+}
+.back_footer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: absolute;
+    background-image: url(../image/backScction.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;  
+    opacity: 0.5;
+}
+.footer {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background-color:#0b0b0bcd;
+    border-top: solid 3px var(--primary-color);
+}
+.content {
+    width: 90%;
+    max-width: 480px;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+    padding-top: 20px;
+}
+.content h2{
+    color: var(--white-header);
+    margin-right: 12px;
+    margin-bottom: 4px;
+    font-size: 1.0rem;
+    letter-spacing: 1.3px;
+    opacity: 0.8; 
+}
+.signature p {
+    color: var(--white-header);
+    margin-right: 10px;
+    margin-bottom: 8px;
+    font-size: 0.9rem;
+    opacity: 0.8; 
+}
+.jnk {
+    width: 30px;
+    height: 15px;
+    background-color: var(--primary-color);
+    border-radius: 4px;
+    margin-top: 4px;
+    margin-bottom: 10px;
+}

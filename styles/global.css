@@ -1,0 +1,27 @@
+:root {
+    --white-header: #FEFDFD;
+    --primary-color: #48c789;
+    --primary-colorTransp: #29cb7d96;
+    --soff-black: #2f2e2e;
+    --contact: #ec4e4e;
+    --detalle: rgb(161, 156, 156);
+    
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+    font-family: 'Montserrat', sans-serif;
+}
+header {
+    width: 100vw;
+    height: auto;
+}
+main {
+    width: 100vw;
+    height: auto;
+    background-color: var(--white-header);
+}

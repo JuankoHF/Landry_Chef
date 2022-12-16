@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/global.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/social&footer.css">
+    <link rel="stylesheet" href="./styles/500width.css" media="(min-width: 500px)">
+    <link rel="stylesheet" href="./styles/770width.css" media="(min-width: 770px)">
+    <title>Chef Home</title>
+</head>
+<body>
+    <header>
+        <section class="header_top">
+            <div class="header_topLeft">
+                <h1>Landry</h1>
+                <h2>Chef</h2>
+            </div>
+            <div class="header_topright">
+                <input type="button" value="Contactar" class="contact" id="idContact">
+                <div class="formContiner">
+                    <form action="https://formsubmit.co/landrycheff@gmail.com" method="POST" >
+                        <label for="name">Escriba su nombre</label>
+                        <input type="text" id="name" name="nombre">
+                        <label for="phone">Escriba su número de contacto</label>
+                        <input type="number" id="phone" name="telefono">
+                        <label for="email">Escriba su correo electrónico</label>
+                        <input type="email" id="email" name="mail">
+                        <label for="textMail">¿En que puedo ayudarle?</label>
+                        <textarea name="coments" id="textMail" cols="30" rows="10"></textarea>
+                        <input type="submit" value="Enviar" class="submit">
+
+                        <input type="hidden" name="_next" value="https://chefDjnk.github.io/Landry_Chef/">
+                        <input type="hidden" name="_captcha" value="false">
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section>
+            <nav class="continer_menu">
+                <div class="continer_span">
+                    <p class="detalles">Detalles</p>
+                    <span class="openMenu"> </span>
+                    <span class="arrow"> </span>
+                    
+                </div>
+                <div class="back-nav_continer">
+                    <ul class="nav_continer">
+                        <li class="close_ok"><span class="breakfast"></span><a href="#det_menu">Desayunos</a></li>
+                        <li class="close_ok1"><span class="tapas"></span><a href="#det_menu">Tapas</a></li>
+                        <li class="close_ok2"><span class="lunch"></span><a href="#det_menu">Comidas</a></li>
+                        <li class="close_ok3"><span class="dessert"></span><a href="#det_menu">Postres</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </section>
+    </header>
+    <main>
+        <section class="acction">
+            <span class="kitchen"> </span>
+            <span class="for770"> </span>
+        </section>
+        <section class="abaut">
+            <h2>Hola,</h2>
+            <div class="persone">
+                <p class="my">Soy</p>
+                <p class="name">Landry Torriente Baró</p>
+            </div>
+            <div class="present">
+                <h3>¿Que como soy?</h3>
+                <p class="iam">Soy una persona honesta y trabajadora, 
+                    muy responsable, cumplidor de mis deberes y 
+                    funciones que me sean encomendadas, tengo 
+                    excelente disposición al trabajo, vocación de 
+                    servicio, comunicación y relaciones interpersonales.
+                </p>
+            </div>
+            <div class="experience">
+                <input type="button" value="Ver experiencia" class="exper">
+                <div class="experience_content">
+                    <div class="experience_view">
+                        <span class="cerrar"> </span>
+                        <ul>
+                            <li>Restaurante Bella Italia - Ayudante de cocina.</li>
+                            <li>Hotel Hilton - Ayudante de cocina.</li>
+                            <li>Salones Venecia formación y salones Murano - Ayudante de cocina.</li>
+                            <li>Restaurante Ddanielo - Cocinero .</li>
+                            <li>Restaurante Mi Vida Lola - Cocinero.</li>
+                            <li>Restaurante Picola Bella Italia - Cocinero.</li>
+                            <li>39 Siete - Chef.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="paragraff">
+                    <p>Me caracteriza un alto grado de exigencia, la lealtad y el sentido de pertenencia.</p>
+                </div>
+            </div>
+        </section>
+        <section class="details">
+            <span class="background_section"> </span>
+            <div class="details_continer">
+                <h2>DETALLES  HABITUALES</h2>
+                <div class="decor">
+                    <span> </span>
+                    <h3>Chef</h3>
+                    <span> </span>
+                </div>
+                <div class="menu_cards__contners" id="det_menu">
+                    <article class="desayuno">
+                        <span></span>
+                        <h4>Desayunos: Red-vital</h4>
+                        <div#det_menu class="menu_decor"></div#det_menu>
+                        <p>Tostadas, aceite y zumo naturales, vegetales, frutas y 
+                            productos lacteos.
+                        </p>
+                    </article>
+                    <article class="tapeo">
+                        <span></span>
+                        <h4>Tapas: Z-Patatera</h4>
+                        <div#det_menu class="menu_decor"></div#det_menu>
+                        <p>Patatas nomo horneadas, rellenas de zetas
+                            con crema del chef.
+                        </p>
+                    </article>
+                    <article class="comida">
+                        <span></span>
+                        <h4>Comidas: Salmón Alado</h4>
+                        <div#det_menu class="menu_decor"></div#det_menu>
+                        <p>Salmón a la pancha con vegetales y crema helada</p>
+                    </article>
+                    <article class="postre">
+                        <span></span>
+                        <h4>Postres: Pico Turquino</h4>
+                        <div#det_menu class="menu_decor"></div#det_menu>
+                        <p>Torre de tortas caseras coronada con frutas y 
+                            frutos cecos caramelizados.
+                        </p>
+                    </article>
+                </div>
+                <input type="button" value="Ver especialidades" class="special">
+                <div class="open_special">
+                    <div class="artic_content">
+                        <span class="special_close"></span>
+                        <article class="spacial_menus uno">
+                            <img src="./image/dorada.jpeg" alt="">
+                            <h4>Dorada Especial</h4>
+                            <p>Bañada en jugo cítrico con ajo y perejil</p>
+                        </article>
+                        <article class="spacial_menus dos">
+                            <img src="./image/pescado.jpeg" alt="">
+                            <h4>Lubina Estrella</h4>
+                            <p>Sobre estrella de patata con salsa Teriyaki</p>
+                        </article>
+                        <article class="spacial_menus tres">
+                            <img src="./image/atun.jpeg" alt="">
+                            <h4>Molino Rojo</h4>
+                            <p>Atún rojo asentado en salsa agridulce roja</p>
+                        </article>
+                        <article class="spacial_menus cuatro">
+                            <img src="./image/salmon.jpeg" alt="">
+                            <h4>Salmón del Norte</h4>
+                            <p>Sobre mahonesa de soja y miel con verduras salteadas</p>
+                        </article>
+                        <article class="spacial_menus cinco">
+                            <img src="./image/tabla_quesos.jpeg" alt="">
+                            <h4>Tabla de Quesos</h4>
+                            <p>Combinación, degustación de quesos compatible</p>
+                        </article>
+                        <article class="spacial_menus seis">
+                            <img src="./image/tabla_atun.jpeg" alt="">
+                            <h4>Tabla de atún</h4>
+                            <p>Tataki de atún con salsa agridulce</p>
+                        </article>
+                    </div>      
+                </div>
+            </div>
+        </section>
+        <section class="social">
+            <div class="social_image">
+                <h1>Landry</h1>
+                <h2>Chef</h2>
+            </div>
+            <div class="profile_image">
+                <span></span>
+                <object data="./image/landry_recortado.png" type=""></object>
+            </div>
+            <div class="mail">
+                <span class="envelp_contact"></span>
+                <p>Contactar</p>
+            </div>
+            <div class="phrase">
+                <h4>"La cocina es un lenguaje mediante el cual se puede expresar 
+                    armonía, felicidad, belleza, poesía, complejidad, 
+                    magia, humor, provocación, cultura"
+                </h4>
+                <p>Ferran Adrià</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <span class="back_footer"></span>
+        <div class="footer">
+            <div class="content">
+                <h2>COOKIES</h2>
+                <h2>PROTECCIÓN DE DATOS</h2>
+                <h2>AVISO LEGAL</h2>
+                <h2>CONTACTO</h2> 
+            </div>
+            <div class="content signature">
+                <p>copyright 2022</p>
+                <p> | Desarrollado por JNK-WedDEV</p>
+            </div>
+            <object data="./icons/jnk.svg" class="jnk" type=""></object>
+        </div>
+    </footer>
+    <script src="./js/contactForm.js"></script>
+    <script src="./js/navMenu.js"></script>
+</body>
+</html>
